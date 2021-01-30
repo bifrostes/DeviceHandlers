@@ -164,7 +164,6 @@ def installed() {
     sendEvent(name: "supportedButtonValues", value: ["pushed","held"].encodeAsJSON(), displayed: false)
     sendEvent(name: "numberOfButtons", value: 1, displayed: false)
     sendEvent(name: "button", value: "pushed", data: [buttonNumber: 1], displayed: false)
-    
 }
 
 def updated() {
