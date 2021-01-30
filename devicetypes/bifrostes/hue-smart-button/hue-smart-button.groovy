@@ -16,7 +16,7 @@ import groovy.json.JsonOutput
 import physicalgraph.zigbee.zcl.DataType
 
 metadata {
-    definition (name: "HUE Smart Button", namespace: "bifrostes", author: "Marco van Es", runLocally: true, minHubCoreVersion: "000.022.0002", executeCommandsLocally: false, vid: "generic-button", ocfDeviceType: "x.com.st.d.remotecontroller") {
+    definition (name: "HUE Smart Button", namespace: "bifrostes", author: "Marco van Es", runLocally: true, executeCommandsLocally: false, vid: "generic-button", ocfDeviceType: "x.com.st.d.remotecontroller") {
         capability "Actuator"
         capability "Battery"
         capability "Button"
